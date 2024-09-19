@@ -25,7 +25,6 @@ public class StonesOnTable {
                 char prevStone = stones[i-1];
                 char currentStone = stones[i];
                 if(prevStone == currentStone){
-                    stones[i] = '-';
                     noOfStonesToRemove++;
                 }
             }
