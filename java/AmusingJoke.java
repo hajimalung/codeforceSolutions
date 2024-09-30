@@ -36,6 +36,8 @@ public class AmusingJoke {
         Map<Character, Integer> pileFreq = new HashMap<>();
         countFrequencyOfLetters(lettersPile, pileFreq);
 
+        sc.close();
+
         String output = pileFreq.equals(hostFreq) ? "YES" : "NO";
 
         System.out.println(output);
